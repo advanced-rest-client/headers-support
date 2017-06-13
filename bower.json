@@ -12,7 +12,10 @@
   ],
   "private": true,
   "main": [
-    "headers-support.html"
+    "headers-support-authorization.html",
+    "headers-support-content-type.html",
+    "headers-support-cookie.html",
+    "headers-support-wsse.html"
   ],
   "repository": {
     "type": "git",

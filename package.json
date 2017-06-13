@@ -16,7 +16,7 @@
   "author": "The Advanced REST client authors <arc@mulesoft.com>",
   "scripts": {
     "serve": "node_modules/.bin/polymer serve",
-    "lint": "node_modules/.bin/polymer lint headers-support.html",
+    "lint": "node_modules/.bin/polymer lint headers-support-authorization.html headers-support-content-type.html headers-support-cookie.html headers-support-wsse.html",
     "test-sauce": "node_modules/.bin/polymer test --plugin sauce --job-name \"headers-support:local-test\"",
     "test": "node_modules/.bin/polymer test",
     "deps": "npm install --quiet && bower install --quiet",

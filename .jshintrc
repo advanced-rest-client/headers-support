@@ -18,6 +18,7 @@
   "globals": {
     "Polymer": true,
     "ArcBehaviors": true,
-    "Cookies": true
+    "Cookies": true,
+    "CryptoJS": true
   }
 }
