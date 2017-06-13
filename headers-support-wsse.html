@@ -15,6 +15,7 @@ the License.
 <link rel="import" href="../headers-support-behavior/headers-support-behavior.html">
 <link rel="import" href="../headers-support-behavior/headers-support-styles.html">
 <link rel="import" href="../paper-input/paper-input.html">
+<link rel="import" href="../paper-button/paper-button.html">
 <link rel="import" href="../paper-checkbox/paper-checkbox.html">
 <link rel="import" href="../paper-masked-input/paper-masked-input.html">
 <script src="../cryptojslib/rollups/sha1.js"></script>
@@ -34,7 +35,7 @@ Currently it supports basic authorization only.
 Check `ArcBehaviors.FillSupportBehavior` for styling options.
 
 @group UI Elements
-@element headers-support
+@element headers-support-wsse
 @demo demo/index.html
 -->
 <dom-module id="headers-support-wsse">
@@ -69,7 +70,6 @@ Check `ArcBehaviors.FillSupportBehavior` for styling options.
     </div>
   </template>
   <script>
-  /* global CryptoJS */
   Polymer({
     is: 'headers-support-wsse',
 
