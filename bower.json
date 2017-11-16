@@ -1,7 +1,7 @@
 {
   "name": "headers-support",
   "description": "A set of elements that provides fill support for headers editor",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "license": "Apache-2.0 OR CC-BY-4.0",
   "authors": [
     "The Advanced REST client authors <arc@mulesoft.com>"
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0",
-    "headers-support-behavior": "advanced-rest-client/headers-support-behavior#^0.1.1",
+    "headers-support-behavior": "advanced-rest-client/headers-support-behavior#^0.2.0",
     "paper-masked-input": "advanced-rest-client/paper-masked-input#^1.0.6",
     "content-type-selector": "advanced-rest-client/content-type-selector#^0.1.1",
     "paper-dialog-scrollable": "PolymerElements/paper-dialog-scrollable#^1.1.5",
@@ -36,11 +36,11 @@
   },
   "devDependencies": {
     "iron-component-page": "polymerelements/iron-component-page#1.0.0",
-    "web-component-tester": "^4.0.0",
+    "web-component-tester": "^6.0.0",
     "paper-styles": "polymerelements/paper-styles#^1.0.2",
     "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
-    "iron-test-helpers": "PolymerElements/iron-test-helpers#^1.0.0",
-    "test-fixture": "PolymerElements/test-fixture#^1.0.0",
+    "iron-test-helpers": "PolymerElements/iron-test-helpers#^1.4.0",
+    "test-fixture": "PolymerElements/test-fixture#^3.0.0",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0",
     "paper-dropdown-menu": "PolymerElements/paper-dropdown-menu#^1.5.1",
     "paper-listbox": "PolymerElements/paper-listbox#^1.1.3",
