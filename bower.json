@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "polymer": "Polymer/polymer#^1.0.0",
-    "headers-support-behavior": "advanced-rest-client/headers-support-behavior#^0.1.1",
+    "headers-support-behavior": "advanced-rest-client/headers-support-behavior#^0.2.0",
     "paper-masked-input": "advanced-rest-client/paper-masked-input#^1.0.6",
     "content-type-selector": "advanced-rest-client/content-type-selector#^0.1.1",
     "paper-dialog-scrollable": "PolymerElements/paper-dialog-scrollable#^1.1.5",
